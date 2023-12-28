@@ -1,5 +1,5 @@
 class CustomList:
-    def __init__(self):
+    def __init__(self) -> None:
         self.list = []
 
     def add_element(self, element):

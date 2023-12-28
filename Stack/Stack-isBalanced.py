@@ -1,3 +1,12 @@
+# Input : "()"
+# Output : True
+
+# Input : "())"
+# Output : False
+
+# Input : "(()())"
+# Output : True
+
 s = "(())"
 
 def is_balanced(s):
